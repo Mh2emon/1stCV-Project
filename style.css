@@ -1,0 +1,79 @@
+header{
+    background-color: navy;
+    text-align: center;
+    color: white;
+    border: 5px blue solid;
+    border-radius: 30px;
+}
+
+#profilepic{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #d4cecd;
+}
+
+#div{
+    height: 30px;
+    width: 450px;
+    box-sizing: 5px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,red,green,blue,orange);
+    opacity: 0.58;
+    border-radius: 30px;
+}
+#div ul{
+
+}
+#div ul li{
+    list-style-type: none;
+    margin: 10px;
+    float: left;
+}
+#div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    cursor: grab;
+}
+#div ul li a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 5px navy double;
+    width: fit-content;
+}
+
+h3{
+    border-bottom: 5px navy dotted;
+    width: fit-content;
+}
+
+h4{
+    border-bottom: 5px navy solid;
+    width: fit-content;
+}
+
+#table, th, tr, td{
+    border: 1px navy double;
+}
+#table th{
+    background-color: grey;
+    color: navy;
+}
+#table:nth-child(odd){
+    background-color: rgb(122, 13, 13);
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
